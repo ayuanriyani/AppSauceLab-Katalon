@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Input PostalCode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9d88ebf-79d5-4f80-b753-04bc825b4f43</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>00e620ea-ac18-4a0e-8604-fd85410eeb49</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'15154'</defaultValue>
+      <description></description>
+      <id>00e620ea-ac18-4a0e-8604-fd85410eeb49</id>
+      <masked>false</masked>
+      <name>postalcode</name>
+   </variable>
+</TestCaseEntity>
