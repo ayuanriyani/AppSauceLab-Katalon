@@ -1,0 +1,12 @@
+*.gradle 
+.settings/
+*.prj
+appium.log
+*.properties
+settings/
+Reports/
+.cache/
+.project
+.classpath
+bin/
+Libs/
