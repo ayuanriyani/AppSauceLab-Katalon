@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/Product/Tap Change Display Product'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('product_page/detail_product_list'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/Product/Verify Content - change display'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Product/Tap Change Display Product'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('product_page/icon_plus_list_product'), 0)
 
