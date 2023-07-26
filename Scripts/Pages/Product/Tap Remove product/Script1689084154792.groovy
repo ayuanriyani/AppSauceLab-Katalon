@@ -18,5 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 Mobile.verifyElementVisible(findTestObject('product_page/button_remove'), 0)
+
 Mobile.tap(findTestObject('product_page/button_remove'), 0)
+
+Mobile.verifyElementNotVisible(findTestObject('product_page/icon_bertambah_total'), 10)
 

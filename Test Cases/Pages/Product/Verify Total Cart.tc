@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Total Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12d6ea18-d263-47fd-bf33-215de7fa9fd2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ca918a3-91e9-4bc8-96e2-5c6aae894114</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>7ca918a3-91e9-4bc8-96e2-5c6aae894114</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>

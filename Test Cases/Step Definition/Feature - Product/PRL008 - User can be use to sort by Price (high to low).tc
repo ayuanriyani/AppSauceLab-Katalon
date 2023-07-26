@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PRL008 - User can be use to sort by Price (high to low)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0db4f74-8c7b-4089-913d-732e80d059c4</testCaseGuid>
+</TestCaseEntity>

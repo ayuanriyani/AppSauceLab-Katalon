@@ -21,9 +21,11 @@ WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content - Login'), [:],
 
 WebUI.callTestCase(findTestCase('Pages/User Login/Input Username'), [('username') : 'standard_user'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input Password'), [('password') : 'secret_sauce'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/User Login/Tap Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Product/Verify Content - Product'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/User Login/Read Error Message'), [('expected') : 'Password is required'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.clearText(findTestObject('login_page/Input_ Username'), 0)
+
+Mobile.clearText(findTestObject('login_page/Input_Password'), 0)
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Icon_cart</name>
+   <name>Icon_Cart_empty</name>
    <tag></tag>
-   <elementGuidId>8ddb2a7d-d322-4016-bf16-6ced2056ca8d</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,15 +12,15 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.ViewGroup</value>
-      <webElementGuid>06d3bc62-ff18-407f-b1a6-fe3bca207098</webElementGuid>
+      <webElementGuid>e5e4e8e6-8f4a-42ee-bf39-eeec9d18c472</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>3</value>
-      <webElementGuid>75117f5a-852b-4d75-9531-77b9e647e723</webElementGuid>
+      <value>0</value>
+      <webElementGuid>83a29a0f-7750-42e5-9954-a1025f01ea97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,15 +28,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.swaglabsmobileapp</value>
-      <webElementGuid>59210d71-3253-4715-b983-7eed4eadc077</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>content-desc</name>
-      <type>Main</type>
-      <value>test-Cart</value>
-      <webElementGuid>1eca61cd-a076-488f-bd46-63f3293013c1</webElementGuid>
+      <webElementGuid>354fedb3-9ccf-4f2f-b1b3-eec4d2f79e6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +36,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ef225a83-e626-48fc-9bd1-e2869377d6a7</webElementGuid>
+      <webElementGuid>58486b65-eb08-4a9c-ad21-8088bb39464a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,15 +44,15 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4b0a9855-c5fb-4b2c-8296-e5aff48ab8e2</webElementGuid>
+      <webElementGuid>96f25dab-913b-4a0e-b641-5774ba2f1ebd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>163eaf5a-d75a-4e5c-8aed-b0fdbc4efab4</webElementGuid>
+      <value>true</value>
+      <webElementGuid>0894375e-3d22-468e-8d22-42c5eb2156bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,15 +60,15 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>14b3f190-cf05-42f5-9575-c5b4c9e6fa08</webElementGuid>
+      <webElementGuid>2b19cac2-2917-4990-85ca-4da945d84f1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>false</value>
-      <webElementGuid>6225e6a5-da1c-4a92-8cf0-c893fa351bb2</webElementGuid>
+      <value>true</value>
+      <webElementGuid>5a1eb7ac-4e20-447c-92b0-e63fac9a3cfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -84,7 +76,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b6d722e8-c6ab-4d54-a182-32885ca2c391</webElementGuid>
+      <webElementGuid>1e8d213e-4362-42ad-8a00-01e49aac35e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +84,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2485645b-a43c-4ffd-a60a-934fa4b929b9</webElementGuid>
+      <webElementGuid>4a9fd847-e9d6-4778-834e-a16476ff353f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -100,7 +92,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>986355b7-aed5-4124-aaab-a54403717147</webElementGuid>
+      <webElementGuid>98d870bc-c291-4e71-b32d-c23d63da3934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -108,7 +100,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>16388418-0f62-4a03-9ebb-20d6a1be58c2</webElementGuid>
+      <webElementGuid>38f4beb7-5db2-4d02-9c2d-f5c161665ce2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,47 +108,47 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>05d67be1-d5a4-4b0c-9bd4-0430cd1da77e</webElementGuid>
+      <webElementGuid>f64ecdce-a1d8-47a1-8799-63215e330c66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>949</value>
-      <webElementGuid>a92e3347-fac0-4118-b424-1d1b25606425</webElementGuid>
+      <value>1265</value>
+      <webElementGuid>0ef51a48-e0fb-4079-9b7f-778522a44865</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>141</value>
-      <webElementGuid>1bacebb4-c3e4-4cfc-9a07-c699515b8545</webElementGuid>
+      <value>101</value>
+      <webElementGuid>0a5bdb1d-7706-4c98-bff9-b9fa6f7a3682</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>105</value>
-      <webElementGuid>ff101f66-1b84-470e-bb80-bd8d29fc7159</webElementGuid>
+      <value>140</value>
+      <webElementGuid>014109e6-9891-4665-9520-12a576e88486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>105</value>
-      <webElementGuid>0c14c051-00d3-4c91-8252-7c3df0b5c0a6</webElementGuid>
+      <value>140</value>
+      <webElementGuid>618ac3ca-72b7-487b-acb6-18261e185ac5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[949,141][1054,246]</value>
-      <webElementGuid>841b064a-6771-4915-b39a-aa12dcfd1937</webElementGuid>
+      <value>[1265,101][1405,241]</value>
+      <webElementGuid>ab4e320b-a1bc-4884-aad3-f1867d534436</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +156,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e0f83407-a680-4c40-b34c-c1eec527c78a</webElementGuid>
+      <webElementGuid>250383cf-c1db-49eb-bc0a-6dbcf4a93cbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -172,16 +164,16 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>fa9b9618-0ba9-4722-a638-d92f736ac194</webElementGuid>
+      <webElementGuid>6b1e1ea7-3a78-412d-97e6-2b167d8434f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]</value>
-      <webElementGuid>f2eacd55-37ae-46b4-ab41-d27e29933fb4</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]</value>
+      <webElementGuid>9310cec0-54b7-456e-8051-3ae451115a51</webElementGuid>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2][count(. | //*[@class = 'android.view.ViewGroup' and @index = '3' and @package = 'com.swaglabsmobileapp' and @content-desc = 'test-Cart' and @checkable = 'false' and @checked = 'false' and @clickable = 'false' and @enabled = 'true' and @focusable = 'false' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '949' and @y = '141' and @width = '105' and @height = '105' and @bounds = '[949,141][1054,246]' and @displayed = 'true' and (@text = '' or . = '')]) = count(//*[@class = 'android.view.ViewGroup' and @index = '3' and @package = 'com.swaglabsmobileapp' and @content-desc = 'test-Cart' and @checkable = 'false' and @checked = 'false' and @clickable = 'false' and @enabled = 'true' and @focusable = 'false' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '949' and @y = '141' and @width = '105' and @height = '105' and @bounds = '[949,141][1054,246]' and @displayed = 'true' and (@text = '' or . = '')])]</locator>
+   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

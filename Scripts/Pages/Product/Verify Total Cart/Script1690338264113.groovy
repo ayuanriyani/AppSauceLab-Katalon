@@ -16,14 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Verify Content - Login'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyElementVisible(findTestObject('product_page/icon_bertambah_total'), 30)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input Username'), [('username') : 'standard_user'], FailureHandling.STOP_ON_FAILURE)
+getValue = Mobile.getText(findTestObject('product_page/icon_bertambah_total'), 30)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Input Password'), [('password') : 'secret_sauce'], FailureHandling.STOP_ON_FAILURE)
+KeywordUtil.logInfo('Result' + getValue)
 
-WebUI.callTestCase(findTestCase('Pages/User Login/Tap Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Product/Verify Content - Product'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.verifyEqual(getValue, expected)
 

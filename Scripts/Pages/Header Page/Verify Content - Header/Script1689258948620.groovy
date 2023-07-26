@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementVisible(findTestObject('header_page/Burger_button'), 0)
+Mobile.verifyElementVisible(findTestObject('header_page/Burger_button'), 10)
 
-Mobile.verifyElementVisible(findTestObject('header_page/Icon_cart'), 0)
+Mobile.verifyElementVisible(findTestObject('header_page/Icon_Cart_empty'), 10)
 
-Mobile.verifyElementVisible(findTestObject('header_page/Title_header_swag'), 0)
+Mobile.verifyElementVisible(findTestObject('header_page/Title_header_swag'), 10)
 

@@ -21,3 +21,5 @@ Mobile.tap(findTestObject('product_page/add_To_cart'), 0)
 
 Mobile.verifyElementVisible(findTestObject('product_page/icon_bertambah_total'), 0)
 
+Mobile.verifyElementVisible(findTestObject('product_page/button_remove'), 0)
+
