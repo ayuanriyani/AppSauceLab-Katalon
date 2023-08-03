@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>TC-Negative</description>
-   <name>ULG005 - User login use data password empty</name>
+   <name>UCHO005 - User Tap Checkout with data postal code empty</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>53d7272d-8555-496a-8984-811dac4fc25f</testCaseGuid>
+   <testCaseGuid>0f2cd6ea-373a-4fb8-b2af-da8d8bbf9b61</testCaseGuid>
 </TestCaseEntity>

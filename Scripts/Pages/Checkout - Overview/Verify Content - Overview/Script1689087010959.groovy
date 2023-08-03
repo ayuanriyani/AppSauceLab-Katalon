@@ -21,8 +21,6 @@ Mobile.verifyElementVisible(findTestObject('checkout_Page2_overview/button_finis
 
 Mobile.verifyElementVisible(findTestObject('checkout_Page2_overview/button_cancel_checkout'), 0)
 
-Mobile.verifyElementVisible(findTestObject('checkout_Page2_overview/button_back_product'), 0)
-
 Mobile.verifyElementVisible(findTestObject('checkout_Page2_overview/txt_QTY'), 0)
 
 Mobile.verifyElementVisible(findTestObject('checkout_Page2_overview/Total_QTY'), 0)

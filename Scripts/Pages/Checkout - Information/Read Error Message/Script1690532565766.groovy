@@ -16,8 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-Mobile.tap(findTestObject('Your_Cart/button_checkout_Cart'), 0)
+Mobile.verifyElementVisible(findTestObject('checkout_Page1_information/error_message'), 0)
 
-WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Verify Content - Checkout-Information'), [:], FailureHandling.STOP_ON_FAILURE)
+errorText = Mobile.getText(findTestObject('checkout_Page1_information/error_message'), 0)
+
+KeywordUtil.logInfo('Error Text:' + errorText)
+
+Mobile.verifyMatch(errorText, expected, true)
 

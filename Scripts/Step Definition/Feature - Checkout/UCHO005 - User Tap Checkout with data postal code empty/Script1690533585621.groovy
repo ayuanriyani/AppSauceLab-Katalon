@@ -17,7 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Your_Cart/button_checkout_Cart'), 0)
+WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Input LastName'), [('lastname') : 'Testing'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Verify Content - Checkout-Information'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Tap Continue'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Read Error Message'), [('expected') : 'Postal Code is required'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Tap Cancel'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>TC-Negative</description>
-   <name>ULG005 - User login use data password empty</name>
+   <name>UCRT004 - User Tap Checkout with Cart Empty</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>53d7272d-8555-496a-8984-811dac4fc25f</testCaseGuid>
+   <testCaseGuid>46c5e30b-72a2-4dae-a93f-90c6fcb4f083</testCaseGuid>
 </TestCaseEntity>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC-Positive</description>
    <name>UCRT001- User successfully to be Checkout</name>
    <tag></tag>
    <comment></comment>

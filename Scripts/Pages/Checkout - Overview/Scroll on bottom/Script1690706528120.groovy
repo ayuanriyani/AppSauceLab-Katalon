@@ -16,4 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+
+Mobile.scrollToText('FINISH')
+
+Mobile.waitForElementPresent(findTestObject('checkout_Page2_overview/button_finish'), 10)
 

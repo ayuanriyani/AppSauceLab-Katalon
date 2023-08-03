@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC - Positive</description>
+   <name>UCHO006 - User Tap button Back Home - Complete</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e0e2c273-6373-4604-9e3f-62488558f7f8</testCaseGuid>
+</TestCaseEntity>

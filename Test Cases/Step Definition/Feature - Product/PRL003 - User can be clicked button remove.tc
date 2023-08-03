@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC-Positive</description>
    <name>PRL003 - User can be clicked button remove</name>
    <tag></tag>
    <comment></comment>

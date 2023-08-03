@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PRL005 - User can be use to sort by Name (A-Z)</name>
+   <name>Verify Item Remove</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>694636b8-c3cd-4647-9b80-8f5be667a08f</testCaseGuid>
+   <testCaseGuid>ca504071-9bad-4f1a-9ea3-5d7f3a362a05</testCaseGuid>
 </TestCaseEntity>

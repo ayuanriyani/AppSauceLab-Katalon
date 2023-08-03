@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Your_Cart/button_remove_cart'), 0)
 
+Mobile.waitForElementPresent(findTestObject('Your_Cart/Title_your_cart'), 0)
+

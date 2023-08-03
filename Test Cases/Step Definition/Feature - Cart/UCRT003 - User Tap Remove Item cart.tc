@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>TC-Positive</description>
-   <name>PRL001 - User see product list</name>
+   <name>UCRT003 - User Tap Remove Item cart</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3e6c1ab2-ba85-4479-ad3a-d97060cdf675</testCaseGuid>
+   <testCaseGuid>d38d8b2a-f5a3-4940-8ec5-dd7d00d3a2ff</testCaseGuid>
 </TestCaseEntity>

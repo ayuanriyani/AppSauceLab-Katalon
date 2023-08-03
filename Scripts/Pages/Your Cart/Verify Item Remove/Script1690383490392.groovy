@@ -17,3 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.verifyElementNotVisible(findTestObject('Your_Cart/qty_product_cart'), 10)
+
+Mobile.verifyElementNotVisible(findTestObject('Your_Cart/Title_product_cart'), 10)
+
+Mobile.verifyElementNotVisible(findTestObject('Your_Cart/price_cart'), 10)
+
+Mobile.verifyElementNotVisible(findTestObject('Your_Cart/description_product_cart'), 10)
+

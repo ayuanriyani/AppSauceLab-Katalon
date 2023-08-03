@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>TC-Negative</description>
    <name>ULG002 - User login use data empty</name>
    <tag></tag>
    <comment></comment>

@@ -24,5 +24,5 @@ errorText = Mobile.getText(findTestObject('login_page/Error_message'), 0)
 
 KeywordUtil.logInfo('Error Text:' + errorText)
 
-Mobile.verifyMatch(errorText, expected, false)
+Mobile.verifyMatch(errorText, expected, true)
 

@@ -17,7 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Your_Cart/button_checkout_Cart'), 0)
+WebUI.callTestCase(findTestCase('Pages/Header Page/Tap Icon Cart'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Your Cart/Tap Checkout Cart'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Verify Content - Checkout-Information'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Checkout - Information/Tap Cancel'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Product/Verify Content - Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
